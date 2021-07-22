@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ee">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Otsetee</title>
+		<link rel="stylesheet" href="styles/common.css">
+	</head>
+<body>
+	<div id="wrapper">
+    	<div id="header">
+        
+        </div>
+        <div id="main">
+		 <embed type="text/html" src="https://www.delfi.ee/" width="1400" height="1000">
+        
+        </div>
+        <div id="paremRiba">
+            <button type="button" onclick="document.getElementById('demo').innerHTML = myFunctionD()"><img src="img/Nupp_delfi_default.jpg" width="185" height="100"></button>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = myFunctionP()"><img src="img/Nupp_postimees_default.jpg"  width="185" height="100"></button> 
+        </div>
+	</div>
+
+<script>
+function myFunctionD() { document.getElementById("main").innerHTML = '<embed type="text/html" src="https://www.delfi.ee" width="1400" height="1000">'; }
+function myFunctionP() { document.getElementById("main").innerHTML = '<embed type="text/html" src="https://www.postimees.ee" width="1400" height="1000">'; }
+//function myFunctionD() { document.getElementById("scrollitav").className = '<embed type="text/html" src="https://www.delfi.ee" width="1400" height="1000">'; }
+//function myFunctionP() { document.getElementById("scrollitav").classname = '<embed type="text/html" src="https://www.postimees.ee" width="1400" height="1000">'; }
+</script>	
+</body>
+</html>
+<!--
+Linkid
+https://stackoverflow.com/questions/18145273/how-to-load-an-external-webpage-into-a-div-of-a-html-page
+
+-->

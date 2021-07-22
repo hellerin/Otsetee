@@ -1,0 +1,35 @@
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    /* Standard syntax */
+    /*background: linear-gradient(darkred, beige);*/
+    background-image: url("../img/bg_seamless_test.jpg");
+    background-repeat: repeat;
+    
+    
+}
+
+#wrapper {
+	width: 1600px;
+	height: 1200px;
+	margin: 0 auto;	
+}
+#header {
+	width: 1600px;
+	height: 200px;
+    background-image: url("../img/header.jpg");
+}
+
+#main {
+	width: 1400px;
+	height: 1000px;
+	background-color: #99acc9;
+	float:left;
+}
+#paremRiba {
+	width: 200px;
+	height: 1000px;
+	float: right;
+	background-color: #8899b5;
+}
