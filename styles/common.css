@@ -1,18 +1,14 @@
-/* CSS Document */
 body {
+    
     margin: 0;
     padding: 0;
-    /* Standard syntax */
-    /*background: linear-gradient(darkred, beige);*/
-    background-image: url("../img/bg_seamless_test.jpg");
+    background-image: url("../img/bg_seamless2.jpg");
     background-repeat: repeat;
-    
-    
 }
 
 #wrapper {
 	width: 1600px;
-	height: 1200px;
+	height:100vh;
 	margin: 0 auto;	
 }
 #header {
@@ -20,7 +16,6 @@ body {
 	height: 200px;
     background-image: url("../img/header.jpg");
 }
-
 #main {
 	width: 1400px;
 	height: 1000px;
@@ -32,4 +27,35 @@ body {
 	height: 1000px;
 	float: right;
 	background-color: #8899b5;
+}
+
+.nuppDelfi:hover {
+    background-image: url("../img/nupp_delfi_active.jpg");
+}
+.nuppPostimees:hover {
+    background-image: url("../img/nupp_pmo_active.jpg");
+}
+.nuppCV:hover {
+    background-image: url("../img/nupp_cv_active.jpg");
+}
+.nuppNeti:hover {
+    background-image: url("../img/nupp_neti_active.jpg");
+}
+.nuppUT:hover {
+    background-image: url("../img/nupp_ut_active.jpg");
+}
+.nuppElu24:hover {
+    background-image: url("../img/nupp_elu24_active.jpg");
+}
+.nuppLHV:hover {
+    background-image: url("../img/nupp_lhv_active.jpg");
+}
+.nuppShoppa:hover {
+    background-image: url("../img/nupp_shoppa_active.jpg");
+}
+.nuppKHK:hover {
+    background-image: url("../img/nupp_khk_active.jpg");
+}
+.nuppIlm:hover {
+    background-image: url("../img/nupp_ilm_active.jpg");
 }

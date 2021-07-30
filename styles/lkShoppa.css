@@ -1,0 +1,81 @@
+.nuppDelfi {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_delfi_normal.jpg");
+}
+.nuppPostimees {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_pmo_normal.jpg");
+}
+.nuppCV {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_cv_normal.jpg");
+}
+.nuppNeti {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_neti_normal.jpg");
+}
+.nuppUT {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_ut_normal.jpg");
+}
+.nuppElu24 {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_elu24_normal.jpg");
+}
+.nuppLHV {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_lhv_normal.jpg");
+}
+.nuppIlm {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_ilm_normal.jpg");
+}
+.nuppShoppa {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_shoppa_click.jpg");
+}
+.nuppKHK {
+    margin-bottom: 0px;
+    width: 200px;
+    height:100px;
+    display:block;
+    position: inherit;    
+    background-image: url("../img/nupp_khk_normal.jpg");
+}
+
